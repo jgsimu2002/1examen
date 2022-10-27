@@ -1,0 +1,97 @@
+
+<html>
+    <head>
+        <title>Pagina de Conciertos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div>Conciertos</div>
+        <h1 class="titulo"> Conciertos</h1>
+            
+        <img src="../../images/concierto2.jpg" alt=""/>
+            <h1 class="lista">Eventos</h1> 
+            
+            <ul>
+                <li class="producto">Bab bobby</li>
+                <li class="producto">Chino y Nacho</li>
+                <li class="producto">Sabastian Yatra</li>
+                <li class="producto">Kebedo</li>
+               <td>
+                <a th:href="@{editConcierto/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+                
+                <td>
+                <a th:href="@{detele/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+            </ul>
+            
+            <h1>Fecha de eventos</h1>
+            
+            <ul>
+               
+                <li class="producto">1-2-2023</li>
+                <li class="producto">5-12-2024</li>
+                <li class="producto">10-8-2022</li>
+                <li class="producto">20-5-2025</li>
+                <td>
+                <a th:href="@{editConcierto/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+                
+                <td>
+                <a th:href="@{detele/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+               
+            </ul>
+            
+             
+            <h1>capacidad</h1>
+            
+            <ul>
+               
+                <li class="producto">6700</li>
+                <li class="producto">4321</li>
+                <li class="producto">1000</li>
+                <li class="producto">6700</li>
+                <td>
+                <a th:href="@{editConcierto/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+                
+                <td>
+                <a th:href="@{detele/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+               
+            </ul>
+            
+             
+            <h1>lugar</h1>
+            
+            <ul>
+               
+                <li class="producto">San jose</li>
+                <li class="producto">Cartago</li>
+                <li class="producto">Alajuela</li>
+                <li class="producto">Guanacaste</li>
+                <td>
+                <a th:href="@{editConcierto/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+                
+                <td>
+                <a th:href="@{detele/{id} {id=$(user.getId)}}">edit</a>
+                </td>
+            </ul>
+            
+            
+            <img src="../../images/concierto.jpg" alt=""/>
+            <div class="comsumo">
+                
+                <h1 class="lista">Lista de Eventos</h1>
+                <p>Espero que los disfruten</p>
+               
+                
+            </div>
+    </body>
+    
+    
+</html>
